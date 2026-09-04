@@ -1,0 +1,21 @@
+{
+  "name": "pns-learning-bot",
+  "version": "0.1.0",
+  "description": "Learning project: TypeScript + Playwright automation against the Pack n Stack Znanja LMS instance. Educational only — see README for scope/limits.",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc -p .",
+    "start": "ts-node main.ts",
+    "login-check": "ts-node auth/login.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "playwright": "^1.47.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.5.4",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.14.0"
+  }
+}
